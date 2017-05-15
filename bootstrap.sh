@@ -16,9 +16,9 @@
 
 ############################  SETUP PARAMETERS
 app_name='xshuo-vim'
-[ -z "$APP_PATH" ] && APP_PATH="$HOME/.xshuo-vim"
-[ -z "$REPO_URI" ] && REPO_URI='https://github.com/xshuo/xshuo_vim.git'
-[ -z "$REPO_BRANCH" ] && REPO_BRANCH='1.0'
+[ -z "$APP_PATH" ] && APP_PATH="$HOME/.xshuo_vim"
+[ -z "$REPO_URI" ] && REPO_URI="https://github.com/xshuo/xshuo_vim.git"
+[ -z "$REPO_BRANCH" ] && REPO_BRANCH='3.0'
 debug_mode='0'
 fork_maintainer='0'
 [ -z "$VUNDLE_URI" ] && VUNDLE_URI="https://github.com/gmarik/vundle.git"
